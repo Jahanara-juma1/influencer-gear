@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Heebo:wght@300;400;500&family=Poppins:ital@1&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+/*---------- common style------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 238, 231);
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+h1{
+    font-size: 20px;
+}
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+    
+
+
+}
+.banner{
+    display: flex;
+    height: 100vh;
+}
+.banner-text{
+    width: 2;
+    padding: 30; 0;
+}
+.banner-left{
+    flex: 2;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/*-------- banner animation----------- */
+.banner-title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+   
+}
+.banner-title::before{
+    content: 'Start your Journey as Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(192, 17, 52);
+    animation: typing 3s linear infinite;
+}
+.banner-text{
+    line-height: 2;
+    margin: 30px 0;
+    
+}
+.preebook-button{
+    outline: 0;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(175, 15, 47);
+    color: white;
+    border: 4px solid rgb(175, 10, 43);
+    cursor: pointer;
+    transition: .3s linear;
+}
+.preebook-button:hover{
+    background-color: transparent;
+    color: rgb(165, 36, 62);
+    }
+
+
+@keyframes typing{
+0%{
+    content: 'S|';
+}
+4%{
+    content: 'St|';
+}
+8%{
+    content: 'Sta|';
+}
+12%{
+    content: 'Star|';
+}
+16%{
+    content: 'Start|';
+}
+20%{
+    content: 'Start y|';
+}
+24%{
+    content: 'Start yo|';
+}
+28%{
+    content: 'Start you|';
+}
+32%{
+    content: 'Start your|';
+}
+36%{
+    content: 'Start your J|';
+}
+40%{
+    content: 'Start your Jo|';
+}
+44%{
+    content: 'Start your Jou|';
+}
+48%{
+    content: 'Start your Jour|';
+}
+52%{
+    content: 'Start your Journ|';
+}
+56%{
+    content: 'Start your Journe|';
+}
+60%{
+    content: 'Start your Journey|';
+}
+64%{
+    content: 'Start your Journey a|';
+}
+68%{
+    content: 'Start your Journey as|';
+}
+72%{
+    content: 'Start your Journey as I|';
+}
+76%{
+    content: 'Start your Journey as In|';
+}
+80%{
+    content: 'Start your Journey as Inf|';
+}
+84%{
+    content: 'Start your Journey as Infl|';
+}
+88%{
+    content: 'Start your Journey as Influ|';
+}
+92%{
+    content: 'Start your Journey as Influe|';
+}
+96%{
+    content: 'Start your Journey as Influen|';
+}
+100%{
+    content: 'Start your Journey as Influenc|';
+}
+104%{
+    content: 'Start your Journey as Influence|';
+}
+108%{
+    content: 'Start your Journey as Influencer|';
+}
+112%
+132%{
+    content: 'Start your Journey as Influencer|';
+}
+133%{
+    content: 'Start your Journey as Influence|';
+}
+134%{
+    content: 'Start your Journey as Influenc|';
+}
+135%{
+    content: 'Start your Journey as Influen|';
+}
+136%{
+    content: 'Start your Journey as Influe|';
+}
+137%{
+    content: 'Start your Journey as Influ|';
+}
+138%{
+    content: 'Start your Journey as Infl|';
+}
+139%{
+    content: 'Start your Journey as Inf|';
+}
+140%{
+    content: 'Start your Journey as In|';
+}
+141%{
+    content: 'Start your Journey as I|';
+}
+142%{
+    content: 'Start your Journey as|';
+}
+143%{
+    content: 'Start your Journey a|';
+}
+144%{
+    content: 'Start your Journey|';
+}
+145%{
+    content: 'Start your Journe|';
+}
+146%{
+    content: 'Start your Journ|';
+}
+147%{
+    content: 'Start your Jour|';
+}
+148%{
+    content: 'Start your Jou|';
+}
+149%{
+    content: 'Start your Jo|';
+}
+150%{
+    content: 'Start your J|';
+}
+151%{
+    content: 'Start your|';
+}
+152%{
+    content: 'Start your Jou|';
+}
+153%{
+    content: 'Start your Jo|';
+}
+154%{
+    content: 'Start your J|';
+}
+155%{
+    content: 'Start your|';
+}
+156%{
+    content: 'Start you|';
+}
+157%{
+    content: 'Start yo|';
+}
+158%{
+    content: 'Start y|';
+}
+159%{
+    content: 'Start|';
+}
+160%{
+    content: 'Star|';
+}
+161%{
+    content: 'Sta|';
+}
+162%{
+    content: 'St|';
+}
+163%{
+    content: 'S|';
+}
+164%{
+    content: |;
+}
+}
