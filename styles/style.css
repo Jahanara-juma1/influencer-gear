@@ -9,17 +9,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-}
 h1{
     font-size: 20px;
 }
 .container{
    max-width: 1440px;
    margin: 0 auto;
-    
-
-
-}
+   margin-top: 87px;
+   }
 .banner{
     display: flex;
     height: 100vh;
@@ -263,3 +260,22 @@ h1{
     content: |;
 }
 }
+/* popular collection */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.fa-star{
+    font-size: 12px;
+} 
+.fa-star.filled{
+    color: #FFC014;
+}
+.course{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40%;
+    /* box-shadow: 10px 10px 40px gray; */
+    margin-top: 20px;
+} 
