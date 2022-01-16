@@ -20,6 +20,7 @@ h1{
    }
 .banner{
     display: flex;
+    min-height: 500px;
     
 }
 .banner-text{
@@ -75,7 +76,7 @@ h1{
     background-color: transparent;
     color: rgb(165, 36, 62);
     }
-
+/*------------------ Animation part------------------- */
 
 @keyframes typing{
 0%{
@@ -269,7 +270,7 @@ h2{
     line-height: 7;
 }
 .popular-collection{
-    /* text-align: center; */
+    /* ---------------text-align: center;--------------------- */
     color: cadetblue;
     line-height: 1;
 }
@@ -295,7 +296,7 @@ h2{
      line-height: 1.5;
 } 
 
-/* products part */
+/*--------------------- products part------------------- */
 .producty-img{
     width: 10%;
     height: 0%;
@@ -319,7 +320,7 @@ font-weight: 700px;
 border-radius: 5px;
 
 }
-/* Footer part. */
+/* --------------------Footer part.---------------- */
 .detail{
     background-color: rgb(2, 2, 22);
     color: #ffffff;
@@ -335,5 +336,36 @@ border-radius: 5px;
 }
 .fab{
     margin-right: 15px;
+} 
+/*------------------- Media Quries-------------------------- */
+
+
+
+/*------------------ Tablet Device------------- */
+@media only screen and (min-width:688px) and (max-width:992px){
+ .container{
+     width: 100%;
+ } 
+ .banner, course{
+     grid-template-columns: repeat(2,1fr);
+ } 
+ .product{
+     grid-template-columns: repeat(1,1fr);
+ } 
+} 
+
+/*--------------- Mobile Device------------------ */
+
+@media only screen and (max-width:688px) {
+    
+.container{
+    width: 100%;
+}
+.banner, course{
+    grid-template-columns: repeat(1,1fr);
+}
+.product{
+    flex-direction: column;
+}
 }
  
